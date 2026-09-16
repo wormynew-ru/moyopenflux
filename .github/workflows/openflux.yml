@@ -125,6 +125,7 @@ jobs:
           echo "======================================"
 
           exec sudo ./universal-bypass-tool \
-            --exit-node \
+            --role=exit \
+            --mode=l4 \
             --transport yandex \
             --url "$YANDEX_DOC_URL"
