@@ -126,6 +126,7 @@ jobs:
 
           exec sudo ./universal-bypass-tool \
             --role=exit \
+            --debug \
             --codec=legacy \
             --mode=l4 \
             --transport yandex \
