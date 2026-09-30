@@ -127,5 +127,6 @@ jobs:
           exec sudo ./universal-bypass-tool \
             --role=exit \
             --mode=l4 \
+            --codec=legacy \
             --transport yandex \
             --url "$YANDEX_DOC_URL"
